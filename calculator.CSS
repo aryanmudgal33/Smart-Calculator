@@ -1,0 +1,41 @@
+.A{
+    background-color: white;
+    object-fit: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    grid-column: span 4;
+    background-color: white;
+    padding: 5px;
+}
+.BODY{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    gap: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 160px;
+    padding: 10px;
+}
+.J{
+    height: 50px;
+    font-weight: bolder;
+    width: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+
+}

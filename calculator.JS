@@ -49,7 +49,7 @@ button.forEach(function(btn){
             }
         }
         else if (btn.textContent=="()"){
-            if (display.textContent.includes("(")){
+            if (display.textContent.edsWith("(")){
             display.textContent+=")";
             }
             else{
